@@ -15,3 +15,10 @@ async function validateUniqueEmailOrFail(email: string) {
     throw duplicatedEmailError();
   }
 }
+
+const userService = {
+  createUser,
+  validateUniqueEmailOrFail,
+};
+
+export default userService;

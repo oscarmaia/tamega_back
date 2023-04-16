@@ -1,4 +1,4 @@
-import { ApplicationError } from '@/protocols.js';
+import { ApplicationError } from '../../protocols.js';
 
 export function duplicatedEmailError(): ApplicationError {
   return {
